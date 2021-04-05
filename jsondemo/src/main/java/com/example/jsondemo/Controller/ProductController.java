@@ -16,7 +16,7 @@ import java.util.List;
 public class ProductController {
 
     @Autowired
-    ProductService productService;
+    IProductService productService;
 
     @PostMapping("/addProduct")
     @ApiOperation("Post Product")
